@@ -57,7 +57,7 @@
     "terminal.foreground": "#abb2bf",
     "terminal.ansiBlack": "#2d3139",
     "terminal.ansiBlue": "#528bff",
-    "terminal.ansiGreen": "#98c379",
+    "terminal.ansiGreen": "#E5C07B",
     "terminal.ansiYellow": "#e5c07b",
     "terminal.ansiCyan": "#56b6c2",
     "terminal.ansiMagenta": "#c678dd",
@@ -65,7 +65,7 @@
     "terminal.ansiWhite": "#d7dae0",
     "terminal.ansiBrightBlack": "#7f848e",
     "terminal.ansiBrightBlue": "#528bff",
-    "terminal.ansiBrightGreen": "#98c379",
+    "terminal.ansiBrightGreen": "#E5C07B",
     "terminal.ansiBrightYellow": "#e5c07b",
     "terminal.ansiBrightCyan": "#56b6c2",
     "terminal.ansiBrightMagenta": "#7e0097",
@@ -79,20 +79,14 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#676f7d"
       }
     },
     {
       "name": "String",
-      "scope": [
-        "string",
-        "string.template"
-      ],
+      "scope": ["string", "string.template"],
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -141,10 +135,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -158,11 +149,7 @@
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword",
-        "keyword.operator.logical",
-        "keyword.operator.constructor"
-      ],
+      "scope": ["keyword", "keyword.operator.logical", "keyword.operator.constructor"],
       "settings": {
         "foreground": "#e06c75"
       }
@@ -214,16 +201,12 @@
         "variable.readwrite.other.block"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#ABB2BF"
       }
     },
     {
       "name": "Other variable",
-      "scope": [
-        "variable.other",
-        "variable.other.property",
-        "variable.other.block"
-      ],
+      "scope": ["variable.other", "variable.other.property", "variable.other.block"],
       "settings": {
         "foreground": "#abb2bf"
       }
@@ -232,36 +215,26 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
       "name": "Package Import",
-      "scope": [
-        "storage.modifier.import",
-        "storage.modifier.package"
-      ],
+      "scope": ["storage.modifier.import", "storage.modifier.package"],
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
       "name": "Function argument",
-      "scope": [
-        "variable.parameter",
-        "entity.name.variable.parameter",
-        "parameter.variable"
-      ],
+      "scope": ["variable.parameter", "entity.name.variable.parameter", "parameter.variable"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#d19a66"
@@ -276,30 +249,21 @@
     },
     {
       "name": "Builtin Functions",
-      "scope": [
-        "function.support.builtin",
-        "function.support.core"
-      ],
+      "scope": ["function.support.builtin", "function.support.core"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
       "name": "Tag Name",
-      "scope": [
-        "entity.name.tag",
-        "entity.name.tag.class.js"
-      ],
+      "scope": ["entity.name.tag", "entity.name.tag.class.js"],
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
       "name": "Tag Class and ID",
-      "scope": [
-        "entity.name.tag.class",
-        "entity.name.tag.id"
-      ],
+      "scope": ["entity.name.tag.class", "entity.name.tag.id"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -308,7 +272,7 @@
       "name": "Tag Attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -320,10 +284,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.variable"
-      ],
+      "scope": ["support.type", "support.variable"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -372,17 +333,12 @@
         "support.constant.sass"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
       "name": "StyleSheet Variable",
-      "scope": [
-        "variable.css",
-        "variable.scss",
-        "variable.less",
-        "variable.sass"
-      ],
+      "scope": ["variable.css", "variable.scss", "variable.less", "variable.sass"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -401,24 +357,14 @@
     },
     {
       "name": "StyleSheet Unit",
-      "scope": [
-        "unit.css",
-        "unit.scss",
-        "unit.less",
-        "unit.sass"
-      ],
+      "scope": ["unit.css", "unit.scss", "unit.less", "unit.sass"],
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
       "name": "StyleSheet Function",
-      "scope": [
-        "function.css",
-        "function.scss",
-        "function.less",
-        "function.sass"
-      ],
+      "scope": ["function.css", "function.scss", "function.less", "function.sass"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -462,10 +408,7 @@
     },
     {
       "name": "diff.header",
-      "scope": [
-        "meta.diff",
-        "meta.diff.header"
-      ],
+      "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "foreground": "#75715E"
       }
@@ -481,7 +424,7 @@
       "name": "diff.inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -554,7 +497,7 @@
       "name": "Markup: Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -567,10 +510,7 @@
     },
     {
       "name": "Markup: Raw",
-      "scope": [
-        "markup.inline.raw",
-        "markup.raw.block.markdown"
-      ],
+      "scope": ["markup.inline.raw", "markup.raw.block.markdown"],
       "settings": {
         "foreground": "#56b6c2"
       }
